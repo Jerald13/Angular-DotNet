@@ -1,16 +1,22 @@
 # Angular-DotNet
 
-Angular:
+* Angular:
 https://flightsjrapi.azurewebsites.net
 
-DotNet:
+* DotNet:
 https://flightsjrapi.azurewebsites.net/swagger/index.html
 
+# Create appsettings.json
+```
 appsettings.json
  "ConnectionStrings": {
     "Flights": "Data Source=#,53006;Database=#;User id=#;Password=#;TrustServerCertificate=#;",
     "ProdConnection": "Server=tcp:#;Initial Catalog=#;Persist Security Info=#;User ID=#;Password=#;MultipleActiveResultSets=#;Encrypt=#;TrustServerCertificate=False;Connection Timeout=30;"
   }
+```
 
-Flights - Local
-ProdConnection - Deploy Azure
+* Flights (Local) - SQL Server Management Studio Management Studio 19
+* ProdConnection (Azure)
+
+
+ 
